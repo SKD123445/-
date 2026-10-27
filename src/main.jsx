@@ -176,7 +176,7 @@ function App() {
           preload="metadata"
           aria-hidden="true"
         >
-          <source src="/hero-background-h264.mp4" type="video/mp4" />
+          <source src="/hero-background-v2.mp4" type="video/mp4" />
         </video>
         <div className="heroShade" />
 
