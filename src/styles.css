@@ -24,7 +24,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   min-height: 100svh;
   overflow: hidden;
   isolation: isolate;
-  background: #05070b url('/hero-poster.png') center / cover no-repeat;
+  background: #05070b;
 }
 
 .heroVideo,

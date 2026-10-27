@@ -173,8 +173,7 @@ function App() {
           muted
           loop
           playsInline
-          preload="auto"
-          poster="/hero-poster.png"
+          preload="metadata"
           aria-hidden="true"
         >
           <source src="/hero-background-h264.mp4" type="video/mp4" />
