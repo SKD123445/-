@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import { createRoot } from 'react-dom/client'
 import DodgeField from './DodgeField'
 import DepthText from './DepthText'
+import AeroShards from './AeroShards'
 import './styles.css'
 
 const experiences = [
@@ -207,6 +208,34 @@ function App() {
           SCROLL TO EXPLORE
         </a>
       </section>
+
+      <div className="aeroBackdrop" aria-hidden="true">
+        <AeroShards
+          shardColor="#5f79b9"
+          accentColor="#72d9ff"
+          backgroundColor="#070a11"
+          placement="full"
+          material="glass"
+          markers="dots"
+          count={900}
+          shardSize={0.9}
+          spread={0.86}
+          twist={0.55}
+          billow={0.5}
+          speed={0.24}
+          scale={1.04}
+          depthOfField={0.58}
+          glow={0.42}
+          grain={0.025}
+          vignette={0.62}
+          mouseInteraction
+          mouseStrength={0.2}
+          parallax={0.14}
+          pulseOnClick={false}
+          holdToGather={false}
+          dpr={1.25}
+        />
+      </div>
 
       <section className="profile section" id="profile">
         <div className="shell">

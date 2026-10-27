@@ -13,6 +13,13 @@
     "motion": "^14.6.0",
     "react": "latest",
     "react-dom": "latest",
+    "vgpu": "^0.6.0",
     "vite": "latest"
+  },
+  "pnpm": {
+    "ignoredBuiltDependencies": [
+      "@vgpu/adapter-node",
+      "webgpu"
+    ]
   }
 }
